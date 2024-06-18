@@ -9,7 +9,7 @@ def volume_sphere(r:Double)=(4.0/3.0)*math.Pi*r*r*r;
 
 //Question4
 def bookPrice(x:Double)=x*24.95;
-def discount(x:Double)=x*0.4;
+def discount(x:Double)=bookPrice(x)*0.4;
 def shippingCost(x:Double)=if(x<=50) 3 else 3+(x-50)*0.75;
 val totalcost=bookPrice(60)+shippingCost(60)-discount(60);
 
