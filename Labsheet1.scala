@@ -13,6 +13,7 @@ def discount(x:Double)=x*0.4;
 def shippingCost(x:Double)=if(x<=50) 3 else 3+(x-50)*0.75;
 val totalcost=bookPrice(60)+shippingCost(60)-discount(60);
 
+
 //Question5
 def easy(k:Int)=8*k;
 def tempo(k:Int)=7*k;
