@@ -1,0 +1,21 @@
+Java: Primarily an object-oriented programming (OOP) language. It focuses on objects and classes.
+Java is a statically typed language, which means types are checked at compile time. It uses explicit type declarations.
+Example:
+java
+
+int a = 2;
+float k = 4.3f;
+Increment/Decrement: Uses both pre and post increment/decrement operators (++, --).
+
+
+
+
+Scala: A multi-paradigm language that supports both OOP and functional programming (FP). This dual support allows developers to use the best of both worlds.
+Scala is also statically typed but has a more concise syntax due to type inference.
+Example:
+scala
+
+val a = 2
+val k = 4.3f
+Increment/Decrement: Does not support ++ and -- operators.
+Functional Programming: Encourages the use of immutable variables and functional programming constructs.
